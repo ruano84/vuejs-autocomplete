@@ -524,10 +524,10 @@ export default {
     }
   },
   watch: {
-    initialValue(newValue, oldValue){
+    initialValue (newValue, oldValue) {
       this.value = newValue
     },
-    initialDisplay(newDisplay, oldDisplay){
+    initialDisplay (newDisplay, oldDisplay) {
       this.display = newDisplay
     }
   },
